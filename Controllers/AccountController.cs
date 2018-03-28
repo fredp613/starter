@@ -113,7 +113,7 @@ namespace Student5.Controllers
             ViewData["ReturnUrl"] = returnUrl;
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, FirstName = model.FirstName, LastName = model.LastName };
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
@@ -126,8 +126,8 @@ namespace Student5.Controllers
 
                     //Jason's mods
                         Entity entity = new Entity("contact");
-                        entity["firstname"] = "Jason";
-                        entity["lastname"] = "Curran";
+                        entity["firstname"] = user.FirstName;
+                        entity["lastname"] = user.LastName;
                         entity["emailaddress1"] = user.Email;
 
                         //set the guid to the same as the one created in the DB

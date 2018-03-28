@@ -6008,7 +6008,7 @@
       ]
     },
     "Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727": {
-      "sha512": "7tIQCZ6l+4vIMSXtwoAHgUhVQFLXFynQ1knAs5IUDKshntSV31XFcQ2ntlPgGRUCMbsEFdqgYQp3A7YwO5csDw==",
+      "sha512": "mDOzGImSD32AD7JIqLBwFFfkRbTPybSyFILn+zKgPFAWJCw88/EkGLijnJFv+BJbE/wvYDmV7dcLuhZ8zi6n3Q==",
       "type": "package",
       "path": "microsoft.identitymodel.clients.activedirectory/2.22.302111727",
       "files": [
@@ -8817,7 +8817,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Student\\.nuget\\packages\\": {},
+    "C:\\Users\\Student_Admin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -8826,17 +8826,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student\\Student5\\Student5\\Student5.csproj",
+      "projectUniqueName": "C:\\Users\\Student_Admin\\starter\\Student5.csproj",
       "projectName": "Student5",
-      "projectPath": "C:\\Users\\Student\\Student5\\Student5\\Student5.csproj",
-      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student\\Student5\\Student5\\obj\\",
+      "projectPath": "C:\\Users\\Student_Admin\\starter\\Student5.csproj",
+      "packagesPath": "C:\\Users\\Student_Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student_Admin\\starter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Student_Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -4033,7 +4033,7 @@
     "Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7tIQCZ6l+4vIMSXtwoAHgUhVQFLXFynQ1knAs5IUDKshntSV31XFcQ2ntlPgGRUCMbsEFdqgYQp3A7YwO5csDw==",
+      "sha512": "sha512-mDOzGImSD32AD7JIqLBwFFfkRbTPybSyFILn+zKgPFAWJCw88/EkGLijnJFv+BJbE/wvYDmV7dcLuhZ8zi6n3Q==",
       "path": "microsoft.identitymodel.clients.activedirectory/2.22.302111727",
       "hashPath": "microsoft.identitymodel.clients.activedirectory.2.22.302111727.nupkg.sha512"
     },

@@ -8,9 +8,10 @@ using Student5.Data;
 namespace Student5.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180328174744_AddedFirstandLastName")]
+    partial class AddedFirstandLastName
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.2")
@@ -175,22 +176,6 @@ namespace Student5.Data.Migrations
                         .HasName("UserNameIndex");
 
                     b.ToTable("AspNetUsers");
-                });
-
-            modelBuilder.Entity("Student5.Models.Inquiry", b =>
-                {
-                    b.Property<Guid>("InquiryId")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("Question");
-
-                    b.Property<string>("Response");
-
-                    b.Property<string>("UserId");
-
-                    b.HasKey("InquiryId");
-
-                    b.ToTable("Inquiry");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<string>", b =>
